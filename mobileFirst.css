@@ -1,0 +1,99 @@
+body {
+    background-color: gray;
+    color: #3F3E3E;
+    font-family: 'Roboto', sans-serif;
+}
+
+hr {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.page-container {
+    background-color: white;
+}
+
+.titleBar {
+    background-color: #F9BD18;
+    padding: 5px;
+}
+
+.fa {
+    position: relative;
+    bottom: 1.2cm;
+}
+
+.fa:hover {
+    color: white;
+}
+
+.titleBar p {
+    text-align: center;
+    position: relative;
+    left: 2.7cm;
+}
+
+.banner img {
+    width: 421px;
+    height: 160px;
+}
+
+article h4 {
+    margin-left: 10px;
+}
+
+article p {
+    text-align: left;
+    margin-left: 10px;
+}
+
+button {
+    background-color: #F98818;
+    border: none;
+    position: relative;
+    left: 1.7cm;
+    width: 300px;
+    height: 45px;
+}
+
+button:hover {
+    background-color: #FFE701;
+    color: white;
+}
+
+.footerIMG img {
+    width: 421px;
+    height: 160px;
+    position: relative;
+    top: 4px;
+}
+
+footer {
+    background-color: #F9BD18;
+    padding: 5px;
+    text-align: center;
+}
+
+#dropdown {
+    background-color: #F98818;
+    position: relative;
+    bottom: 1.8cm;
+    display: none;
+    z-index: 1;
+}
+
+#dropdown ul {
+    list-style-type: none;
+}
+
+#dropdown ul li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    margin-right: 200px;
+}
+
+#dropdown ul li:hover {
+    background-color: #F9BD18;
+    color: white;
+}
