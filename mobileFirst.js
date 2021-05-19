@@ -12,4 +12,5 @@ function iconClicked () {
         dropdown.style.display = "none";
         icon.style.color = "#3F3E3E";
     }
+    
 }
