@@ -24,22 +24,32 @@ hr {
 
 .fa {
     position: relative;
-    bottom: 1.2cm;
+    bottom: 0.4cm;
+    right: 8cm;
 }
 
 .fa:hover {
     color: white;
 }
 
-.titleBar p {
+.titleBar img {
+    width: 300px;
     text-align: center;
     position: relative;
-    left: 2.7cm;
+    left: 3.05cm;
 }
 
 .banner img {
     width: 421px;
     height: 160px;
+}
+
+.bannerH1 {
+    display: none;
+}
+
+.bannerP {
+    display: none;
 }
 
 article h4 {
@@ -81,7 +91,7 @@ footer {
 #dropdown {
     background-color: #F98818;
     position: relative;
-    bottom: 1.8cm;
+    bottom: 1cm;
     display: none;
     z-index: 1;
 }
@@ -104,6 +114,10 @@ footer {
 
 @media only screen and (min-width: 600px) {
 
+    button {
+        background-color: #FFE701;
+    }
+
     .contact {
         display: block;
         background-color: #FFE701;
@@ -125,12 +139,8 @@ footer {
         background-color: white;
     }
 
-    .titleBar p {
-        font-size: 40px;
-        text-align: left;
-        position: relative;
-        left: 2cm;
-        margin-bottom: 14px;
+    .titleBar img {
+        width: 500px;
         bottom: 0.3 cm;
     }
 
@@ -145,6 +155,8 @@ footer {
 
     #dropdown ul {
         float: right;
+        position: relative;
+        top: 1cm;
     }
 
     #dropdown ul li{
@@ -156,7 +168,37 @@ footer {
     .banner {
         text-align: center;
         margin-top: 20px;
-    
+    }
+
+    .bannerH1 {
+        display: block;
+        background-color: #F9BD18;
+        font-size: 40px;
+
+        position: absolute;
+        bottom: 0.2cm;
+
+        margin-left: 14.2cm;
+        margin-right: 14.2cm;
+
+        z-index: 1;
+    }
+
+    .bannerP {
+        display: block;
+        background-color: #F9BD18;
+        font-size: 20px;
+        text-align: center;
+
+        position: absolute;
+
+        bottom: 1px;
+
+        margin-top: -0.8cm;
+        margin-left: 13.5cm;
+        margin-right: 13.5cm;
+
+        z-index: 1;
     }
 
     .banner img {
@@ -184,5 +226,11 @@ footer {
 
         left: 24cm;
         bottom: 10.8cm;
+    }
+
+    iframe {
+        width: 100%;
+        height: 12cm;
+        margin-top: -5.5cm;
     }
 }
