@@ -32,6 +32,10 @@ hr {
     color: white;
 }
 
+.fas {
+    display: none;
+}
+
 .titleBar img {
     width: 300px;
     text-align: center;
@@ -144,7 +148,7 @@ footer {
         bottom: 0.3 cm;
     }
 
-    header .titleBar i {
+    header .titleBar #icon {
         display: none;
     }
 
@@ -229,8 +233,10 @@ footer {
     }
 
     iframe {
-        width: 100%;
+        width: 1200px;
         height: 12cm;
         margin-top: -5.5cm;
+        position: relative;
+        left: 60px;
     }
 }
